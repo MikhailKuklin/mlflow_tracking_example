@@ -4,7 +4,7 @@
 
 conda create -n mlflow_tracking-env python=3.9
 
-conda activate mlflow_tacking-env
+conda activate mlflow_tracking-env
 
 ## Step 2: install requirements
 
@@ -28,7 +28,7 @@ cd /notebooks #mlflow should be always launched from the folder with notebooks/s
 mlflow server --backend-store-uri sqlite:///backend.db --default-artifact-root ./artifacts_local
 '''
 
-Sources for mlflow setups:
+## Sources for mlflow setups:
 
 [MLOps Zoomcamp 2.6](https://youtu.be/1ykg4YmbFVA)
 
