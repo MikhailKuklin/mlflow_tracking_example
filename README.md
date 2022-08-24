@@ -28,6 +28,8 @@ cd /notebooks #mlflow should be always launched from the folder with notebooks/s
 mlflow server --backend-store-uri sqlite:///backend.db --default-artifact-root ./artifacts_local
 ```
 
+## Step 4: run notebook
+
 ## Sources for mlflow setups:
 
 [MLOps Zoomcamp 2.6](https://youtu.be/1ykg4YmbFVA)
