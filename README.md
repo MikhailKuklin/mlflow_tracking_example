@@ -12,9 +12,24 @@ pip install -r requirements
 
 ## Step 3: launch MLFlow UI (in terminal)
 
-mlflow ui --backend-store-uri sqlite:///mlflow.db
+*Option 1*: without using tracking server
+
+'''
+cd /notebooks #mlflow should be always launched from the folder with notebooks/scripts
+mlflow ui
+'''
 
 Go to http://127.0.0.1:5000 which will open UI for tracked experiments.
+
+*Option 2*: with locak tracking server
+
+'''
+cd /notebooks #mlflow should be always launched from the folder with notebooks/scripts
+mlflow server --backend-store-uri sqlite:///backend.db --default-artifact-root ./artifacts_local
+'''
+
+Sources for mlflow setups:
+[MLOps Zoomcamp 2.6][https://youtu.be/1ykg4YmbFVA]
 
 
 
