@@ -2,9 +2,11 @@
 
 ## Step 1: create conda environment
 
+```sh
 conda create -n mlflow_tracking-env python=3.9
 
 conda activate mlflow_tracking-env
+```
 
 ## Step 2: install requirements
 
