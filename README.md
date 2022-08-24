@@ -21,7 +21,7 @@ mlflow ui
 
 Go to http://127.0.0.1:5000 which will open UI for tracked experiments.
 
-*Option 2*: with locak tracking server
+*Option 2*: with local tracking server
 
 ```sh
 cd /notebooks #mlflow should be always launched from the folder with notebooks/scripts
