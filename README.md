@@ -14,7 +14,7 @@ pip install -r requirements
 
 *Option 1*: without using tracking server
 
-'''
+´´'
 cd /notebooks #mlflow should be always launched from the folder with notebooks/scripts
 mlflow ui
 '''
@@ -29,7 +29,8 @@ mlflow server --backend-store-uri sqlite:///backend.db --default-artifact-root .
 '''
 
 Sources for mlflow setups:
-[MLOps Zoomcamp 2.6][https://youtu.be/1ykg4YmbFVA]
+
+[MLOps Zoomcamp 2.6](https://youtu.be/1ykg4YmbFVA)
 
 
 
