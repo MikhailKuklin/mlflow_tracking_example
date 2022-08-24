@@ -10,7 +10,9 @@ conda activate mlflow_tracking-env
 
 ## Step 2: install requirements
 
+```sh
 pip install -r requirements
+```
 
 ## Step 3: launch MLFlow UI (in terminal)
 
@@ -18,6 +20,7 @@ pip install -r requirements
 
 ```sh
 cd /notebooks #mlflow should be always launched from the folder with notebooks/scripts
+
 mlflow ui
 ```
 
@@ -27,6 +30,7 @@ Go to http://127.0.0.1:5000 which will open UI for tracked experiments.
 
 ```sh
 cd /notebooks #mlflow should be always launched from the folder with notebooks/scripts
+
 mlflow server --backend-store-uri sqlite:///backend.db --default-artifact-root ./artifacts_local
 ```
 
