@@ -32,6 +32,7 @@ mlflow server --backend-store-uri sqlite:///backend.db --default-artifact-root .
 
 ## Sources for mlflow setups:
 
+[MLOps Zoomcamp 2.2](https://youtu.be/cESCQE9J3ZE)
 [MLOps Zoomcamp 2.6](https://youtu.be/1ykg4YmbFVA)
 
 
