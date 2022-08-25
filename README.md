@@ -2,6 +2,7 @@
 Repo contains two notebooks which demonstrate functionality of MLFlow tracking:
 
 */notebooks/exp_mlflow_local_autolog.ipynb*: basic use with [autlog()](https://www.mlflow.org/docs/latest/tracking.html#automatic-logging)
+
 */notebooks/exp_mlflow_serve_custom.ipynb*: custom configuration of tracking parameters
 
 More detailed information about model can be found in this [repo](https://github.com/MikhailKuklin/Logistic_regression_from_scratch) and [blog post](https://wordpress.com/view/mikhailkuklin.wordpress.com) 
