@@ -14,7 +14,7 @@ conda activate mlflow_tracking-env
 pip install -r requirements
 ```
 
-## Step 3: launch MLFlow UI (in terminal)
+## Step 3: launch MLFlow UI
 
 *Option 1*: without using tracking server
 
