@@ -18,7 +18,7 @@ conda activate mlflow_tracking-env
 ## Step 2: install requirements
 
 ```sh
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ## Step 3: launch MLFlow UI
